@@ -1,0 +1,75 @@
+/* Random Quran Verse by Abdulwahab Humayun */
+
+html { 
+  background: url(https://bit.ly/38OXjKF) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #9b7c5c;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #504030;
+}
+
+.button:active {
+  background-color: #12343b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.jumbotron {
+  background-color: #e1b382;
+}
+
+#buttonJumbo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#verse {
+  border: 1px solid #000000;
+  padding: 10px;
+  font-style: bold;
+  quotes:"\201C" "\201D";
+  font-family: Droid Arabic Naskh, san-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#translation {
+  font-style: italic;
+  font-family: Lucida;
+  font-size: 30px;
+  text-align: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #ad7428;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
