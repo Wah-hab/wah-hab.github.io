@@ -13,7 +13,6 @@ Modification of the code requires:
 ## Usage
 
 The website can be accessed from the link (https://wah-hab.github.io/)
-(This link may change as versions of the website change.
 
 ## License
 
